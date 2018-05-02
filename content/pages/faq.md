@@ -1,6 +1,5 @@
-Title: Frequently Asked Questions
-
-## Frequently Asked Questions
+Title: FAQ
+Save_as: pages/faq.html
 
 **How much do you charge?**
 

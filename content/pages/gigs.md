@@ -1,6 +1,5 @@
 Title: Gig Guide
-
-## Gig Guide
+Save_as: pages/gigs.html
 
 ** 5th August 2018 **
 

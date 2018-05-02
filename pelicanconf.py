@@ -3,10 +3,24 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Mike Gibbs'
-SITENAME = 'The Free Radicals - Pan-European Psychedelic Folk!'
+SITENAME = 'The Free Radicals'
 SITEURL = ''
 
+DISPLAY_PAGES_ON_MENU = False
+DISPLAY_CATEGORIES_ON_MENU = True
+USE_FOLDER_AS_CATEGORY = True
 PATH = 'content'
+ARTICLE_PATHS = ['articles',]
+PAGE_PATHS = ['pages',]
+MENUITEMS = (
+    ('Home Page', '/pages/about.html'),
+    ('Our Music', '/pages/music.html'),
+    ('About Us', '/pages/about.html'),
+    ('FAQ', '/pages/faq.html'),
+    ('Gig Guide', '/pages/gigs.html'),
+    ('Contact Us', '/pages/contact.html')
+)
+
 
 TIMEZONE = 'Europe/London'
 
@@ -20,16 +34,20 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = ()
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Twitter', 'https://twitter.com/thefreeradsfolk'),
+          ('Facebook', 'https://www.facebook.com/TheFreeRadicalsFolk'),
+          ('Youtube', 'http://www.youtube.com/freeradicalchap')
+         ,)
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+#THEME = 'iris'
+
+PLUGIN_PATHS = 'plugins'
+PLUGINS = ['pelican_javascript', 'embed_tweet']

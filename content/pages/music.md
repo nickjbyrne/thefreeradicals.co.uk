@@ -1,10 +1,5 @@
-Title: Our Music
-
-# Our Music
-
-[ soundcloud ]
-
-# The Band History
+Title: Band History
+Save_as: pages/music.html
 
 The Free Radicals were formed in the mid-nineties way back in the last millennium, in the days when no-one else had thought of the name and few knew what free radicals were. The original members were Chris Kershaw, Mike Gibbs and Jon Atkins. Jon had previously played for Exeter based oufit Meet My Shorts whilst Mike and Chris had formed bands including The Dodgy Jammers and Kurt Kurtain & The Curtains.
 
