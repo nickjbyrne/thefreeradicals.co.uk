@@ -16,6 +16,8 @@ If you are looking for lively folk music for good night out then check our gig g
 
 If you run a pub or are organising an event (beer festivals are our speciality!) and want to know what we sound like then try out some of the tunes from the player on the Our Music page. If you want to book us, then email us or give us a call see the Contact Us page.
 
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/1132572&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+
 Our limited edition recordings are listed below - available at gigs and on request via email:
 
 * Out of The Hedge
