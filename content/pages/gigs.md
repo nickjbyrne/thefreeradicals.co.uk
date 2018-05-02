@@ -10,6 +10,3 @@ Staycation, Phillips Memorial Park, The Burys, Godalming, Surrey, GU7 1EP.
 Haslemere Beer Festival, Haslemere Hall, Bridge Road, Haslemere, Surrey, GU27 2AS.
 
 ** Further dates in 2018 will appear here when confirmed. **
-
-
-

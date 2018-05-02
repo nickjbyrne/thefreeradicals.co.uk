@@ -10,10 +10,6 @@ Save_as: pages/about.html
 
 We are best sampled in a live setting. Our brand of non-conformist folk is well suited to the pub scene, so long as there is plenty of space to get up and dance (beer often gets spilt).
 
-@TheFreeRadsFolk/status/903702141017219073
-
-@TheFreeRadsFolk/status/903700986107232257
-
 Our music takes its influence from English, Irish, French, American and eastern European folk music, particularly the more up-tempo kind of olde worlde dance music. We weave together Bluegrass, Irish and Ukrainian tunes in our set, with a few self-penned compositions to boot. However, The Free Radicals rise to fame has been hampered by an inability to take ourselves seriously, so anything often goes.
 
 If you are looking for lively folk music for good night out then check our gig guide for upcoming dates. We hail from Godalming in Surrey and usually play at various localities in Surrey, Sussex and Hampshire.

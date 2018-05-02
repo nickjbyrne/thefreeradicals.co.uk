@@ -13,11 +13,11 @@ PATH = 'content'
 ARTICLE_PATHS = ['articles',]
 PAGE_PATHS = ['pages',]
 MENUITEMS = (
-    ('Home Page', '/pages/about.html'),
-    ('Our Music', '/pages/music.html'),
     ('About Us', '/pages/about.html'),
+    ('Music & Media', '/pages/music.html'),
+    ('Our History', '/pages/history.html'),
     ('FAQ', '/pages/faq.html'),
-    ('Gig Guide', '/pages/gigs.html'),
+    ('Gigs Guide', '/pages/gigs.html'),
     ('Contact Us', '/pages/contact.html')
 )
 
@@ -47,7 +47,7 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-#THEME = 'iris'
+THEME = 'simple'
 
 PLUGIN_PATHS = 'plugins'
 PLUGINS = ['pelican_javascript', 'embed_tweet']
