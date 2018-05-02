@@ -1,6 +1,10 @@
 Title: Home Page
 Save_as: index.html
 
+## The Free Radicals - Pan-European Psychedelic Folk! 
+
+![Alt Text]({filename}/images/bkpam2314560_freerads7_website2_lowres.jpg)
+
 Based in Surrey, England, **THE FREE RADICALS** play folk music taking inspiration from traditional celtic music, bluegrass, Ukrainian dance music, and other influences mixing it together to produce a unique sound. Taking the basic four instruments of mandolin, guitar, bass and spoons, with occasional fiddle, harp and percussion, TFR have a distinctly acoustic vibe, but don't conform to the traditionalist image of many modern-day folk bands. Born in the pubs of Godalming, Surrey, TFR are essentially a live act, but have spent time in the studio to produce two albums 'Out Of The Hedge' and 'Hydon's Ball' which have an electric and psychedelic edge to their normal acoustic sound. You can catch the band at one of our local gigs in pubs or at festivals in Surrey and Sussex.  You are guaranteed a rip-roaring, foot-tapping time!
 
 ### See our NEW video - The Man, The Abbott, The King And The Toad:
