@@ -13,12 +13,13 @@ PATH = 'content'
 ARTICLE_PATHS = ['articles',]
 PAGE_PATHS = ['pages',]
 MENUITEMS = (
+    ('Home', '/'),
     ('About Us', '/pages/about.html'),
     ('Music & Media', '/pages/music.html'),
     ('Our History', '/pages/history.html'),
     ('FAQ', '/pages/faq.html'),
-    ('Gigs Guide', '/pages/gigs.html'),
-    ('Contact Us', '/pages/contact.html')
+    ('Gigs', '/pages/gigs.html'),
+    ('Contact', '/pages/contact.html')
 )
 
 
@@ -49,5 +50,15 @@ DEFAULT_PAGINATION = 10
 
 THEME = 'simple'
 
-PLUGIN_PATHS = 'plugins'
+PLUGIN_PATHS = ['plugins',]
 PLUGINS = ['pelican_javascript', 'embed_tweet']
+
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+    },
+    'output_format': 'html5',
+}
+

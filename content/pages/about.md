@@ -47,7 +47,7 @@ The Free Radicals are
 <div class="columns">
   <div class="column">
 
-  <i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>
+  <i class="fa fa-quote-left fa-2x fa-pull-left fa-border"></i>
 
 We are best sampled in a live setting. Our brand of non-conformist folk is well suited to the pub scene, so long as there is plenty of space to get up and dance (beer often gets spilt).
 {: .is-size-5 }
