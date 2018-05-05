@@ -8,12 +8,13 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato|Love+Ya+Like+A+Sister|Old+Standard+TT" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Love+Ya+Like+A+Sister" rel="stylesheet">
 
   <style>
     body {
       font-family: 'Lato', sans-serif;
     }
+
     .title, .subtitle {
       font-family: 'Love Ya Like A Sister', cursive;
     }
@@ -23,6 +24,45 @@
       font-size: 1.5rem;
       font-weight: 400;
       color: #000;
+    }
+
+    .gallery {
+      position: relative;
+      width: 80%;
+      margin: 0 auto;
+      padding: 5px;
+    }
+
+    .gallery > div {
+      position: relative;
+      float: left;
+      padding: 1.5rem;
+    }
+
+    .gallery > div > img {
+      display: block;
+      width: 250px;
+      transition: .1s transform;
+      transform: translateZ(0); /* hack */
+    }
+
+    .gallery > div:hover {
+      z-index: 1;
+    }
+    
+    .gallery > div:hover > img {
+      transform: scale(2.7,2.7);
+      transition: .3s transform;
+    }
+
+    .cf:before, .cf:after {
+      display: table;
+      content: "";
+      line-height: 0;
+    }
+
+    .cf:after {
+      clear: both;
     }
 
   </style>
@@ -77,6 +117,8 @@
   </section>
 
 </body>
+
+
 {% if article %}
   {% if article.javascripts %}
     {% for javascript in article.javascripts %}

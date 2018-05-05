@@ -78,12 +78,19 @@ Our Recordings
 
   <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/1132572&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
+  <br>
+
 Our limited edition recordings are listed below - available at gigs and on request via email:
 {: .is-size-5 }
 
+  <br>
+
 * Out of The Hedge
+{: .subtitle .is-4 }
 * Hydon's Ball
+{: .subtitle .is-4 }
 * Hidden In The Alder (to be released 2017)
+{: .subtitle .is-4 }
 
   </div>
   </div> <!-- columns -->
