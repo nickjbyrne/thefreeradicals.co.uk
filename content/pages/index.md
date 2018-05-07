@@ -7,7 +7,7 @@ Save_as: index.html
 The Free Radicals - Pan-European Psychedelic Folk! 
 {: .title .is-1 .has-text-centered }
 
-![Alt Text]({filename}/images/bkpam2314560_freerads7_website2_lowres.jpg)
+<img src="/images/bkpam2314560_freerads7_website2_lowres.jpg">
 
   </div>
 </section>
