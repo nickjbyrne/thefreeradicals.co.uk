@@ -32,7 +32,6 @@ jobs:
       - deploy:
           name: Push application Docker image
           command: |
-            
-            cat /caches/thefreeradicalswebapp.tar | ssh deploy@incension.com "cat | docker load"
-            ssh deploy@incension.com docker stop $(docker ps -q  --filter ancestor=thefreeradicalswebapp)
-            ssh deploy@incension.com docker run -run -p 8080:8080 -d thefreeradicalswebapp
+            cat /caches/thefreeradicalswebapp.tar | ssh -o "StrictHostKeyChecking no" deploy@incension.com "cat | docker load"
+            ssh -o "StrictHostKeyChecking no" deploy@incension.com docker stop $(docker ps -q  --filter ancestor=thefreeradicalswebapp)
+            ssh -o "StrictHostKeyChecking no" deploy@incension.com docker run -run -p 8080:8080 -d thefreeradicalswebapp
