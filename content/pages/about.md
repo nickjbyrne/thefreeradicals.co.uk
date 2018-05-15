@@ -4,7 +4,7 @@ Save_as: pages/about.html
 <section markdown="1" class="section">
   <div class="container">
 
-The Free Radicals are
+These are The Free Radicals
 {: .title .is-1 .has-text-centered }
 
   </div>
