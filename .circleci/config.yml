@@ -35,4 +35,4 @@ jobs:
             cat /caches/thefreeradicalswebapp.tar | ssh -o "StrictHostKeyChecking no" deploy@incension.com "cat | docker load"
             ssh -o "StrictHostKeyChecking no" deploy@incension.com "docker ps -q --filter name=thefreeradicalswebapp | xargs -r docker stop"
             ssh -o "StrictHostKeyChecking no" deploy@incension.com "docker ps -a -q -f status=exited | xargs -r docker rm -v"
-            ssh -o "StrictHostKeyChecking no" deploy@incension.com "docker run -p 8080:8080 -d --name thefreeradicalswebapp thefreeradicalswebapp"
+            ssh -o "StrictHostKeyChecking no" deploy@incension.com "docker run -p 8080:8080 --restart unless-stopped -d --name thefreeradicalswebapp thefreeradicalswebapp"
